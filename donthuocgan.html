@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="/medicine/css/donthuocgan.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="header">
+      <div class="logo">
+        <img src="/medicine/image/1.webp" alt="" />
+      </div>
+
+      <div class="donvi">
+        <a href="t1.html">đơn thuốc điện tử</a>
+      </div>
+    </div>
+
+    <div class="img">
+      <img src="/medicine/image/download.png" alt="" />
+    </div>
+
+    <div class="container">
+      <h2>QUẢN LÝ ĐƠN THUỐC</h2>
+      <form id="Form">
+        <div class="form-group">
+          <input type="text" id="user" placeholder="Id bệnh nhân" required />
+        </div>
+        <div class="table-container">
+          <table id="medicineTable">
+            <thead>
+              <tr>
+                <th>ID</th>
+                <th>Tên bệnh nhân</th>
+                <th>Tên thuốc</th>
+                <th>Liều lượng</th>
+              </tr>
+            </thead>
+            <tbody></tbody>
+          </table>
+        </div>
+        <button type="button" onclick="them1()">Thêm</button>
+        <button type="button" onclick="huy()">Huỷ</button>
+      </form>
+    </div>
+    <script src="index.js"></script>
+    <script src="donthuocgan.js"></script>
+  </body>
+</html>

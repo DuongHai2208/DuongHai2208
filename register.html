@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="/medicine/css/register.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="header">
+      <div class="logo">
+        <img src="/medicine/image/1.webp" alt="" />
+      </div>
+
+      <div class="donvi">
+        <h2>đơn thuốc điện tử</h2>
+      </div>
+    </div>
+
+    <div class="img">
+      <img src="/medicine/image/download.png" alt="" />
+    </div>
+
+    <div class="login-container">
+      <h2>ĐĂNG KÍ</h2>
+      <form id="registerForm">
+        <div class="form-group">
+          <input type="text" id="user" placeholder="Mã bác sĩ" required />
+        </div>
+        <div class="form-group">
+          <input type="text" id="ten" placeholder="Họ tên" required />
+        </div>
+        <div class="form-group">
+          <input type="text" id="sdt" placeholder="Số điện thoại" required />
+        </div>
+        <div class="form-group">
+          <input type="text" id="cccd" placeholder="CCCD" required />
+        </div>
+        <div class="form-group">
+          <input type="password" id="pass" placeholder="Mật khẩu" required />
+        </div>
+
+        <button type="button" onclick="register()">Đăng kí</button>
+      </form>
+    </div>
+
+    <script src="register.js"></script>
+  </body>
+</html>

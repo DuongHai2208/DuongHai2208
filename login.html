@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="/medicine/css/login.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="header">
+      <div class="logo">
+        <img src="/medicine/image/1.webp" alt="" />
+      </div>
+
+      <div class="donvi">
+        <a href="t1.html">đơn thuốc điện tử</a>
+      </div>
+    </div>
+
+    <div class="img">
+      <img src="/medicine/image/download.png" alt="" />
+    </div>
+
+    <div class="login-container">
+      <h2>ĐĂNG NHẬP</h2>
+      <form id="loginForm">
+        <div class="form-group">
+          <input type="text" id="user" placeholder="Mã bác sĩ" required />
+        </div>
+        <div class="form-group">
+          <input type="password" id="pass" placeholder="Mật khẩu" required />
+        </div>
+
+        <button type="button" onclick="login()">Đăng nhập</button>
+        <button type="button" onclick="Register()">Đăng kí</button>
+      </form>
+    </div>
+
+    <script src="index.js"></script>
+    <script src="login.js"></script>
+  </body>
+</html>

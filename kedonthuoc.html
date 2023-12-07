@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="/medicine/css/kedonthuoc.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="header">
+      <div class="logo">
+        <img src="/medicine/image/1.webp" alt="" />
+      </div>
+
+      <div class="donvi">
+        <a href="t1.html">đơn thuốc điện tử</a>
+      </div>
+    </div>
+
+    <div class="img">
+      <img src="/medicine/image/download.png" alt="" />
+    </div>
+
+    <div class="container">
+      <h2>KÊ ĐƠN THUỐC</h2>
+      <form id="Form">
+        <div class="form-group">
+          <input type="text" id="id" placeholder="Id bệnh nhân" required />
+          <button type="button" onclick="searchBenhNhan()">Tiếp tục</button>
+        </div>
+      </form>
+      <button type="button" onclick="back()">Quay lại</button>
+    </div>
+
+    <script src="index.js"></script>
+    <script src="kedonthuoc.js"></script>
+  </body>
+</html>
